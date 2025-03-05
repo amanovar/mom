@@ -1,0 +1,293 @@
+/*menu-bar
+.menu-icon-bar {
+    background-color: #fff;
+    color: #6d1818;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+  
+  .menu-icon i {
+    color: #831e1e;
+    font-size: 24px;
+  }
+  
+  .menu-links {
+    display: none;
+  }
+  
+  .menu-links a {
+    color: #4a1616;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .menu-links a:hover {
+    color: #591515;
+  }*/
+  a {
+    text-align: center;
+  }
+  
+  
+header {
+    font-family: 'Arial', sans-serif;
+    /*background-color:;*/
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    overflow: hid
+    overflow: scroll;
+    
+  
+   
+      margin: 1px auto;
+      padding: 70px;
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #6d1818;
+    /*background-color: ;*/
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #6d1818;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-3840x2160-8324.png');
+    
+}
+
+/* Hero Section */
+#hero {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0097a7;
+}
+/*link*/
+
+h2 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 60px;
+  font-size: 25px;
+  margin: 0;
+ 
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+
+
+a {
+  color: #f0e3e3;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: #6d1818;
+}
+
+
+
+/* About Section */
+#about {
+    /*background-color: ;*/
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.1rem;
+}
+
+/* Courses Section */
+#courses {
+    /*background-color: ;*/
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#courses h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.course-card {
+    /*background-color: ;*/
+    border-radius: 10px;
+    margin: 1.5rem;
+    padding: 2rem;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-card h3 {
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+}
+
+.course-card p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.course-card a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Chatbot */
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-btn {
+    /*background-color: #00bcd4;*/
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.chat-btn:hover {
+    background-color: #0097a7;
+}
+
+/* Footer Section */
+footer {
+    /*background-color: ;*/
+    color: rgb(202, 68, 68);
+    text-align: center;
+    padding: 20px;
+    
+    bottom: 0;
+    width: 100%;
+
+  
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-content p {
+    margin: 10px 0;
+}
+.button {
+    /*background-color: #444;*/
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #ff0000;
+}
